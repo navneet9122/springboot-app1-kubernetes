@@ -4,7 +4,7 @@ pipeline{
     }
     agent any
      environment{
-        registry = "795590076180.dkr.ecr.ap-south-1.amazonaws.com/ecr123"
+        registry = "795590076180.dkr.ecr.ap-south-1.amazonaws.com/ecr123" //ecr name
     }
     stages{
      stage('Cloning Git') {
